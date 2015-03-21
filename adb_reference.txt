@@ -24,5 +24,6 @@ http://forum.xda-developers.com/showthread.php?t=2183023&page=1875
 
 easily reboot into recovery using cmd:
 adb reboot recovery
+see link: http://forum.xda-developers.com/showthread.php?t=1853159
 **note: alternatively, you can use the LG G3's hardware buttons:
         http://www.androidrootz.com/2014/07/how-to-enter-into-recovery-mode-on-lg-g3.html
