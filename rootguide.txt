@@ -1,0 +1,24 @@
+
+this link is a general XDA guide by vcurbel for
+getting root onto LG G3 D85110r
+http://forum.xda-developers.com/tmobile-lg-g3/general/how-to-root-kvt49l-d85110r-install-twrp-t3004158
+
+**note:
+  with USB debugging enabled, an RSA popup should show.
+  -select yes to recognize the computer on the phone
+
+  whenever redoing the steps, be sure to push the recovery.img and SuperSU zip to /temp
+
+
+  step 6: place SuperSU file into /temp
+  cmd:    adb push UPDATE-SuperSU-v2.40.zip /temp
+
+  step 7: listen to the guide, DO NOT CONTINUE PROCESS AFTER TEMPROOT
+          this results in the G3 displaying a screen with a red hand over 2 wires connected to a phone
+	  ^ this is good! - phone is in recovery mode & /temp/fakesu is made here
+
+  step 8: the cmd 'adb devices' should return the LG G3 with the status 'recovery'
+
+  step 12: if the fakesu # only returns a blinking cursor, something went wrong. Redo the prior steps.
+
+  

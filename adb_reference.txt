@@ -1,0 +1,11 @@
+
+for adb, get the latest version.
+
+  as of Android 4.2.2, there's a RSA enforcement and needs update on adb
+  see: http://forum.xda-developers.com/galaxy-nexus/help/resolved-adb-longer-android-4-2-2-t2144709
+
+  -have at least adb version 1.0.31
+   >version 1.0.32 was used by following XDA guide from simmac
+    http://forum.xda-developers.com/android/general/adb-fastboot-binaries-os-x-inclusive-t2941205
+
+  
