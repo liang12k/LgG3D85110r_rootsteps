@@ -21,4 +21,7 @@ http://forum.xda-developers.com/tmobile-lg-g3/general/how-to-root-kvt49l-d85110r
 
   step 12: if the fakesu # only returns a blinking cursor, something went wrong. Redo the prior steps.
 
-  
+
+to get into the new TWRP recovery mode, follow this guide:
+http://www.androidrootz.com/2014/07/how-to-enter-into-recovery-mode-on-lg-g3.html
+

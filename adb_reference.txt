@@ -1,4 +1,6 @@
 
+ADB: Android Debug Bridge
+
 for adb, get the latest version.
 
   as of Android 4.2.2, there's a RSA enforcement and needs update on adb
@@ -8,4 +10,19 @@ for adb, get the latest version.
    >version 1.0.32 was used by following XDA guide from simmac
     http://forum.xda-developers.com/android/general/adb-fastboot-binaries-os-x-inclusive-t2941205
 
-  
+
+update Android SDK:
+http://developer.android.com/sdk/index.html
+
+
+when doing cmd 'adb push', the cursor blinks (on mac terminal)
+-there isn't a feature to display the status
+-confirmed: pushed PacMan rom and gapps w/o any output until it completed
+see XDA post by runganwt:
+http://forum.xda-developers.com/showthread.php?t=2183023&page=1875
+
+
+easily reboot into recovery using cmd:
+adb reboot recovery
+**note: alternatively, you can use the LG G3's hardware buttons:
+        http://www.androidrootz.com/2014/07/how-to-enter-into-recovery-mode-on-lg-g3.html
